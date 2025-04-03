@@ -1,0 +1,39 @@
+{
+  "questions": [
+    {
+      "question": "What is the capital of Canada?",
+      "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+      "answer": "Ottawa"
+    },
+    {
+      "question": "Which of the following is NOT a prime number?",
+      "options": ["2", "11", "15", "19"],
+      "answer": "15"
+    },
+    {
+      "question": "What does CPU stand for in computing?",
+      "options": [
+        "Central Processing Unit",
+        "Computer Processing Unit",
+        "Central Performance Utility",
+        "Core Processing Unit"
+      ],
+      "answer": "Central Processing Unit"
+    },
+    {
+      "question": "Who wrote Romeo and Juliet?",
+      "options": [
+        "Charles Dickens",
+        "William Shakespeare",
+        "Mark Twain",
+        "Jane Austen"
+      ],
+      "answer": "William Shakespeare"
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "options": ["Au", "Ag", "Pb", "Fe"],
+      "answer": "Au"
+    }
+  ]
+}
