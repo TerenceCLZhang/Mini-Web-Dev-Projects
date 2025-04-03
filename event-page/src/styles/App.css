@@ -1,0 +1,77 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 2rem;
+}
+
+section {
+  background-color: #f1efec;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 1rem;
+  width: 65vw;
+  padding: 2vw 5vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 7px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #030303;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 0.25rem;
+}
+
+table tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+
+#speakers ul {
+  padding: 0;
+}
+
+#speakers ul li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+#speakers ul li span {
+  color: #123458;
+  font-weight: bold;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#contact form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+#contact form div input {
+  height: 2em;
+  border-radius: 7px;
+  border: 1px solid #030303;
+}
+
+#contact form div textarea {
+  resize: vertical;
+  overflow: auto;
+  min-height: 4rem;
+  border-radius: 7px;
+  border: 1px solid #030303;
+}

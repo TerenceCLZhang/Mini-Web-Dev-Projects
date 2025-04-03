@@ -1,0 +1,39 @@
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.testimonial-msg {
+  font-size: 1.75rem;
+  text-align: justify;
+}
+
+.person-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 65px;
+}
+
+.person-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.name,
+.occupation {
+  font-size: 1.25rem;
+}
+
+.occupation {
+  font-weight: 100;
+}

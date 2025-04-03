@@ -1,0 +1,13 @@
+nav {
+  background-color: #030303;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-top: 4px solid #030303;
+  border-bottom: 4px solid #030303;
+}
+
+nav a {
+  padding: 1rem 4rem;
+}
