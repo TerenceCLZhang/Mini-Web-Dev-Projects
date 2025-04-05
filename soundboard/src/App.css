@@ -1,0 +1,13 @@
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin: 1rem;
+  max-width: 700px;
+}
+
+.main-content > * {
+  flex: 1 1 calc(25% - 1rem);
+  box-sizing: border-box;
+}

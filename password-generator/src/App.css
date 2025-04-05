@@ -1,0 +1,81 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgb(116, 26, 116);
+  margin: 1rem;
+  padding: 2rem;
+  max-width: 410.75px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.password-container {
+  background-color: rgb(58, 11, 58);
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  overflow: hidden;
+}
+
+.generated-password {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.25rem;
+  white-space: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+  flex-grow: 1;
+}
+
+/* Webkit Browsers (Chrome, Safari) */
+.generated-password::-webkit-scrollbar {
+  display: none;
+}
+
+.copy {
+  background-color: rgb(146, 29, 146);
+  border: none;
+  margin-left: 10px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.copy img {
+  width: 20px;
+  height: 20px;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(134deg)
+    brightness(106%) contrast(102%);
+}
+
+.password-settings {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.form-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-input input[type="number"] {
+  width: 50px;
+}
+
+.password-settings input[type="submit"] {
+  background-color: rgb(146, 29, 146);
+  border: none;
+  color: white;
+  padding: 5px;
+}
