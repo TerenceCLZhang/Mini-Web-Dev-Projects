@@ -1,0 +1,14 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.75rem;
+  margin: 1rem;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}

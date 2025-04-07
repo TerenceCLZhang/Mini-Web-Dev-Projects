@@ -1,0 +1,18 @@
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.platform-icon {
+  width: 85px;
+  height: auto;
+  filter: invert(91%) sepia(18%) saturate(265%) hue-rotate(317deg)
+    brightness(108%) contrast(98%);
+}
+
+.platform-label {
+  font-size: 1.75rem;
+  text-align: center;
+}

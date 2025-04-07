@@ -1,0 +1,55 @@
+.toggle-btn {
+  background-color: rgb(202, 202, 202);
+  border-radius: 99px;
+  width: 120px;
+  height: 56px;
+  transition: background-color 0.1s ease, border-color 0.2s ease;
+  cursor: pointer;
+  position: relative;
+  border: none;
+}
+
+.toggle-btn .thumb {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border-radius: 99px;
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  transition: left 0.75s ease;
+}
+
+.toggle-btn .thumb.animate {
+  animation: slideOff 0.75s linear forwards;
+}
+
+.toggled {
+  background-color: rgb(151, 75, 221);
+}
+
+.toggle-btn.toggled .thumb {
+  left: calc(100% - 40px - 5px);
+  animation: slideOn 0.75s linear forwards;
+}
+
+@keyframes slideOn {
+  0%,
+  100% {
+    transform: translateY(-50%) scale(1);
+  }
+  50% {
+    transform: translateY(-50%) scale(1.2);
+  }
+}
+
+@keyframes slideOff {
+  0%,
+  100% {
+    transform: translateY(-50%) scale(1);
+  }
+  50% {
+    transform: translateY(-50%) scale(1.2);
+  }
+}

@@ -1,0 +1,13 @@
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin: 1rem;
+}
+
+@media (max-width: 48rem) {
+  .main-content {
+    flex-direction: column;
+  }
+}

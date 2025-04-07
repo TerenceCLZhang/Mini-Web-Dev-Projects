@@ -1,0 +1,96 @@
+.faq {
+  border: 1px solid rgb(78, 31, 0);
+  padding: 1rem;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto;
+  column-gap: 5rem;
+  width: 100%;
+  max-width: 591.34px;
+}
+
+.transition-active {
+  transition: all 0.2s ease;
+}
+
+.question {
+  grid-column: 1 / 2;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.toggle-btn {
+  grid-column: 2 / 3;
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.toggle-btn img {
+  width: 30px;
+  height: auto;
+}
+
+.answer {
+  grid-column: 1 / 3;
+  margin-top: 1rem;
+  text-shadow: 0px 1px 1px rgb(0 0 0 / 0.1), 0px 1px 2px rgb(0 0 0 / 0.1),
+    0px 2px 4px rgb(0 0 0 / 0.1);
+}
+
+.faq-active {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.faq-bubbles {
+  position: relative;
+  overflow: hidden;
+}
+
+.faq-bubbles::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: -25px;
+  width: 100px;
+  height: 100%;
+  background-image: url(assets/bubble.svg);
+  background-repeat: no-repeat;
+  background-size: 100px auto;
+  opacity: 0.15;
+  pointer-events: none;
+  filter: invert(54%) sepia(21%) saturate(6718%) hue-rotate(160deg)
+    brightness(92%) contrast(101%);
+  transform: scaleX(-1);
+}
+
+.faq-bubbles::after {
+  content: "";
+  position: absolute;
+  top: 28px;
+  left: 10px;
+  width: 100px;
+  height: 100%;
+  background-image: url(assets/bubble.svg);
+  background-repeat: no-repeat;
+  background-size: 100px auto;
+  opacity: 0.15;
+  pointer-events: none;
+  filter: invert(72%) sepia(11%) saturate(3028%) hue-rotate(62deg)
+    brightness(93%) contrast(77%);
+}
+
+.toggle-btn-active {
+  background-color: gray;
+  filter: invert(84%) sepia(64%) saturate(0%) hue-rotate(54deg) brightness(108%)
+    contrast(100%);
+}

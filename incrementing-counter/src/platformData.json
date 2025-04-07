@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "platformName": "YouTube",
+      "number": 15000,
+      "followersName": "Subscribers"
+    },
+    {
+      "platformName": "Facebook",
+      "number": 5200,
+      "followersName": "Fans"
+    },
+    {
+      "platformName": "Twitter",
+      "number": 9500,
+      "followersName": "Followers"
+    }
+  ]
+}

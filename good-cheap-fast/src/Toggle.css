@@ -1,0 +1,9 @@
+.toggle {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.toggle .toggle-label {
+  font-size: 2rem;
+}
