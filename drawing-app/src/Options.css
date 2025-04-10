@@ -1,0 +1,22 @@
+.options {
+  background-color: rgb(55, 124, 189);
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.options-left-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.brush-size {
+  display: flex;
+  gap: 0.5rem;
+  align-items: cen;
+}
+
+.color-picker button span {
+  width: 35px;
+  height: 35px;
+}

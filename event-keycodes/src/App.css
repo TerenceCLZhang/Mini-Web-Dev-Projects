@@ -1,0 +1,10 @@
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  text-align: center;
+  font-size: 1.25rem;
+  margin: 1rem;
+}

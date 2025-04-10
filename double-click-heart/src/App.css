@@ -1,0 +1,41 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  gap: 1rem;
+  text-align: center;
+}
+
+.image {
+  width: 300px;
+  height: 500px;
+  background-image: url(assets/cat.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  cursor: pointer;
+  position: relative;
+
+  -khtml-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.heart-overlay {
+  position: absolute;
+  color: red;
+  animation: grow 0.8s linear;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+@keyframes grow {
+  to {
+    transform: translate(-50%, -50%) scale(8);
+    opacity: 0;
+  }
+}

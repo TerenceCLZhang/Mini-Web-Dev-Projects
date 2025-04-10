@@ -1,0 +1,13 @@
+.key-code-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.code {
+  border: 1px gray solid;
+  padding: 1rem 2rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  width: 200px;
+}
