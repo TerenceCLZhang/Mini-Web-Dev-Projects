@@ -1,0 +1,68 @@
+.main-content {
+  display: flex;
+}
+
+.side {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+  padding: 1rem;
+  transition: all 1s ease;
+}
+
+.side::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.playstation::before {
+  background-color: rgba(0, 109, 205, 0.25);
+}
+
+.xbox::before {
+  background-color: rgba(16, 124, 17, 0.25);
+}
+
+.playstation *,
+.xbox * {
+  z-index: 1;
+}
+
+.buy-btn {
+  color: white;
+  text-decoration: none;
+  border: 3px solid white;
+  padding: 0.5rem 5rem;
+  font-size: 1.5rem;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.buy-btn.playstation-btn:hover {
+  background-color: rgb(0, 109, 205);
+  border-color: rgb(0, 109, 205);
+}
+
+.buy-btn.xbox-btn:hover {
+  background-color: rgb(16, 124, 17);
+  border-color: rgb(16, 124, 17);
+}
+
+@media (max-width: 800px) {
+  .buy-btn {
+    font-size: 1rem;
+    padding: 0.25rem 2rem;
+  }
+}

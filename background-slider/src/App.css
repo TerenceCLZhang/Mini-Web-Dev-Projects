@@ -1,0 +1,48 @@
+.background-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  transition: all 0.75s ease-in;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.main-content::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.747);
+  z-index: 0;
+}
+
+.main-content * {
+  position: relative;
+  z-index: 1;
+}
+
+.focus-container {
+  width: 70vw;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.focus {
+  top: calc((70vh - 100vh) / 2);
+  left: calc((70vw - 100vw) / 2);
+}
+
+.btn {
+  color: white;
+  background: none;
+  border: 5px solid rgb(230, 149, 0);
+  font-size: 3rem;
+  padding: 1rem;
+  cursor: pointer;
+}
