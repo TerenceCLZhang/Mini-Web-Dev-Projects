@@ -1,0 +1,26 @@
+{
+  "toasts": [
+    {
+      "type": "Success",
+      "message": "Your changes have been saved successfully."
+    },
+    {
+      "type": "Error",
+      "message": "An unexpected error occurred. Please try again later."
+    },
+    {
+      "type": "Warning",
+      "message": "You are nearing your storage limit."
+    },
+    {
+      "type": "Info",
+      "message": "Don't forget to verify your email address."
+    }
+  ],
+  "colors": {
+    "Success": "#4CAF50",
+    "Error": "#F44336",
+    "Warning": "#FFC107",
+    "Info": "#2196F3"
+  }
+}
