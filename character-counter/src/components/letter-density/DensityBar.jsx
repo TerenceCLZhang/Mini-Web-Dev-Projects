@@ -1,4 +1,4 @@
-import "../../css/DensityBar.css";
+import "../../css/letter-density/DensityBar.css";
 
 function DensityBar({ letter, count, value }) {
   return (

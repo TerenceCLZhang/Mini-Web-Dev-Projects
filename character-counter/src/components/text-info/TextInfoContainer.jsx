@@ -1,4 +1,4 @@
-import "../../css/TextInfoContainer.css";
+import "../../css/text-info/TextInfoContainer.css";
 
 function TextInfoContainer({ heading, count, bgColor }) {
   const formatCount = () => {
