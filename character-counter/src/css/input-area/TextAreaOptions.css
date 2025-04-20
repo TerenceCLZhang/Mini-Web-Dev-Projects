@@ -1,0 +1,19 @@
+.text-area-below {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media (max-width: 650px) {
+  .text-area-below {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}

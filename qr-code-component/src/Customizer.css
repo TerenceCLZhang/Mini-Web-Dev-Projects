@@ -1,0 +1,19 @@
+.customizer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.customizer div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.invalid {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: red;
+}

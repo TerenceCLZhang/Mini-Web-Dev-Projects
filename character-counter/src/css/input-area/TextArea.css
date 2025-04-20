@@ -1,0 +1,56 @@
+.text-area-input {
+  position: relative;
+}
+
+.text-area {
+  resize: none;
+  width: 100%;
+  padding: 1rem;
+  padding-right: 75px;
+  border-radius: 10px;
+  scrollbar-color: #888 transparent;
+  box-sizing: border-box;
+  outline: 1px solid white;
+  border: 1px solid black;
+}
+
+.text-area::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.paste {
+  position: absolute;
+  top: 2.75rem;
+  left: 1rem;
+}
+
+.trash {
+  position: absolute;
+  top: 0.5rem;
+  right: 1.5rem;
+}
+
+.copy {
+  position: absolute;
+  bottom: 1rem;
+  right: 1.5rem;
+}
+
+.trash button,
+.copy button {
+  padding: 0.5rem;
+  width: 40px;
+  height: 40px;
+}
+
+.icon {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 650px) {
+  .paste,
+  .trash,
+  .copy {
+    display: none;
+  }
+}

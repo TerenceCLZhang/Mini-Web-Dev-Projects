@@ -1,0 +1,7 @@
+.letter-density {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  gap: 1rem;
+}

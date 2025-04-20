@@ -1,0 +1,22 @@
+.qr-code-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  text-align: center;
+  width: 328px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.qr-code {
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.line-break {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+}
